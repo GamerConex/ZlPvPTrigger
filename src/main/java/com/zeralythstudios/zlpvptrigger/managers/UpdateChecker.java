@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class UpdateChecker {
 
-    private static final String MODRINTH_PROJECT_ID = "zlpvptrigger";
+    private static final String MODRINTH_PROJECT_ID = "nojGpzMF";
     private final ZlPvPTrigger plugin;
 
     public UpdateChecker(ZlPvPTrigger plugin) {
