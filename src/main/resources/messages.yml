@@ -1,0 +1,31 @@
+general:
+  prefix: "&x&0&0&7&f&f&f&lZlPvPTrigger &8» "
+
+errors:
+  cannot-move-trigger-item: "%prefix%&cYou cannot move the PvP trigger item."
+
+combat:
+  only-pvp-enabled-fight: "%prefix%&cBoth players must have PvP enabled to fight."
+
+pvp:
+  activation:
+    countdown: "%prefix%&aActivating PvP in &e%seconds% &asecond(s)..."
+    enabled: "%prefix%&cPvP mode enabled."
+  deactivation:
+    countdown: "%prefix%&eDisabling PvP in &6%seconds% &esecond(s)..."
+    disabled: "%prefix%&aPvP mode disabled."
+
+commands:
+  no-permission: "%prefix%&cYou do not have permission to use this command."
+  unknown: "%prefix%&cUnknown subcommand. Use &e/zlpvptrigger help&c."
+  reload: "%prefix%&aConfiguration and messages reloaded successfully."
+  system-enabled: "%prefix%&aZlPvPTrigger system has been enabled."
+  system-disabled: "%prefix%&cZlPvPTrigger system has been disabled."
+  help:
+    header: "%prefix%&7Available commands:"
+    line-1: "%prefix%&e/zlpvptrigger help &7- Show this help menu."
+    line-2: "%prefix%&e/zlpvptrigger version &7- Show plugin version."
+    line-3: "%prefix%&e/zlpvptrigger support &7- Show support link."
+    line-4: "%prefix%&e/zlpvptrigger reload &7- Reload config/messages."
+    line-5: "%prefix%&e/zlpvptrigger off &7- Disable the PvP trigger system."
+    line-6: "%prefix%&e/zlpvptrigger on &7- Enable the PvP trigger system."

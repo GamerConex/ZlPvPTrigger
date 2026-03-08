@@ -1,0 +1,13 @@
+system-enabled: true
+pvp-trigger-item: DIAMOND_SWORD
+trigger-slot: 0
+activation-delay: 5
+deactivation-delay: 5
+
+pvp-kit:
+  enabled: false
+  armor:
+    helmet: NETHERITE_HELMET
+    chestplate: NETHERITE_CHESTPLATE
+    leggings: NETHERITE_LEGGINGS
+    boots: NETHERITE_BOOTS
