@@ -1,0 +1,15 @@
+name: ZlPvPTrigger
+main: com.zeralythstudios.zlpvptrigger.main.ZlPvPTrigger
+version: 1.0.0
+api-version: '1.16'
+authors: [Zeralyth Studios]
+description: Voluntary PvP trigger plugin for protected zones.
+commands:
+  zlpvptrigger:
+    description: Main command for ZlPvPTrigger.
+    usage: /zlpvptrigger <reload|help|support|version|off|on>
+    aliases: [zpt]
+permissions:
+  zlpvptrigger.admin:
+    description: Allows administration subcommands.
+    default: op
